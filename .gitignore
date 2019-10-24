@@ -10,3 +10,10 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Temporary files
+*~
+*#
+
+# Session information for getting input
+aoc_session
