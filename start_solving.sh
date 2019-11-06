@@ -3,7 +3,7 @@ DAY=$1
 
 URL='https://adventofcode.com/2019/day/'$DAY
 INPUT_FILE=inputs/day$DAY.in
-SOLUTION_FILE=day$DAY.go
+SOLUTION_FILE=day$DAY.py
 
 max_fails=10
 cur_fails=0
@@ -20,6 +20,6 @@ do
 done
 
 echo "It's ready, start solving!"
-cp -i day0.go $SOLUTION_FILE
+cp -i day0.py $SOLUTION_FILE
 google-chrome $URL
 emacs $INPUT_FILE $SOLUTION_FILE &
