@@ -2,12 +2,7 @@ import re
 
 input_data = open('inputs/day2.in','r').read().strip()#.split('\n')
 
-#data = [re.findall(r'exp',line) for line in input_data]
 data = [int(i) for i in re.findall(r'\d+',input_data)]
-#data = [1,0,0,0,99]
-#data = [2,3,0,3,99]
-#data = [1,1,1,4,99,5,6,0,99]
-#data = [1,9,10,3,2,3,11,0,99,30,40,50]
 
 data[1] = 12
 data[2] = 2
